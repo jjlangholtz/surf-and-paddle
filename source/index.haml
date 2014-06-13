@@ -20,67 +20,63 @@ title: Surf and Paddle
     %h6 An Ironyard Academy Project Est. Summer 2014
 
 
-.container
-  .content
-    %section.post
-      %h2 A Fantastic Engaging Headline Goes Here
-      .post-author
-        %img{:src => '/images/annie.jpg', :alt => '#'}
-        %a{:href => '#'} Annie Dolphin
-        %p on Monday, June 7th 9:22pm
-      .post-body
-        %p= lorem.paragraph
-        %p | <span>"This is a pull quote from the article."</span>
-        %p= lorem.paragraph
-        %p= lorem.paragraph
-      .post-footer
-        %span Read Comments
-        %span Read Later
-        %span Share This Post
+.content
+  %section.post
+    %h2 A Fantastic Engaging Headline Goes Here
+    .post-author
+      %img{:src => '/images/annie.jpg', :alt => '#'}
+      %a{:href => '#'} Annie Dolphin
+      %p on Monday, June 7th 9:22pm
+    .post-body
+      %p= lorem.paragraph
+      %p | <span>"This is a pull quote from the article."</span>
+      %p= lorem.paragraph
+      %p= lorem.paragraph
+    .post-footer
+      %span Read Comments
+      %span Read Later
+      %span Share This Post
 
-    %section.sidebar
-      .social
-        %span#author AuthorImg
-        %p Annie Dolphin
-        %a{:href => '#'} Twitter
-        %a{:href => '#'} Facebook
-        %a{:href => '#'} Instagram
+  %section.sidebar
+    .social
+      %img{:src => '/images/annie.jpg', :alt => '#'}
+      %a{:href => '#', :id => 'profile'} Annie Dolphin
+      %a{:href => '#'} Twitter
+      %a{:href => '#'} Facebook
+      %a{:href => '#'} Instagram
 
-      .advertisement
-        %img{:src => '/images/advertisement.jpg', :alt => '#'}
-        %a About this Ad
+    .advertisement
+      %img{:src => '/images/sidebar.jpeg', :alt => '#'}
+      %a About this Ad
 
-      .side-post
-        %h4 Sidebar Section Heading
-        %p= lorem.paragraph
+    .side-post
+      %h4 Sidebar Section Heading
+      %p= lorem.paragraph
 
-  %footer
-    %h2 Most Popular Posts
-    .post-images
-      .pop-post-1
-        %img.footer-image{:src => '/images/dolphins.jpg', :alt => '#'}
-          %p.footer-title Another Cool Post
-      .pop-post-2
-        %img.footer-image{:src => '/images/dog_surfing.jpeg', :alt => '#'}
-          %p.footer-title Post Title
-      .pop-post-3
-        %img.footer-image{:src => '/images/kayaks.jpg', :alt => '#'}
-          %p.footer-title Here's Another Longer Post Title
-      .pop-post-4
-        %img.footer-image{:src => '/images/surfboards.jpg', :alt => '#'}
-          %p.footer-title Oh Cool A Post!
+  %h2 Most Popular Posts
 
-    .copyright
-      %span#tiy-logo
-      %p The Ironyard Copyright 2014, All Rights Reserved
+%footer
+  .post-images
+    .pop-post-1
+      %p.footer-title Another Cool Post
+    .pop-post-2
+      %p.footer-title Post Title
+    .pop-post-3
+      %p.footer-title Here's Another Longer Post Title
+    .pop-post-4
+      %p.footer-title Oh Cool A Post!
 
-    .footer-nav
-      %ul
-        %li
-          %a{:href => '#'} Nav Item 1
-        %li
-          %a{:href => '#'} Nav Item 2
-        %li
-          %a{:href => '#'} Nav Item 3
-        %li
-          %a{:href => '#'} Nav Item 4
+  .copyright
+    %span#tiy-logo
+    %p The Ironyard Copyright 2014, All Rights Reserved
+
+  .footer-nav
+    %ul
+      %li
+        %a{:href => '#'} Nav Item 1
+      %li
+        %a{:href => '#'} Nav Item 2
+      %li
+        %a{:href => '#'} Nav Item 3
+      %li
+        %a{:href => '#'} Nav Item 4

@@ -34,11 +34,6 @@ div.filter {
   z-index: -2;
 }
 
-div.container {
-  width: 1080px;
-  margin: auto;
-}
-
 div#logo {
   margin-top: 10px;
   margin-left: 125px;
@@ -95,12 +90,13 @@ div#banner h1 {
 }
 
 div.content {
-  width: 900px;
+  margin: auto;
+  width: 1200px;
 }
 
 section.post {
-  margin-left: 4%;
-  width: 65%;
+  margin-left: 110px;
+  width: 640px;
   float: left;
 }
 
@@ -125,6 +121,7 @@ div.post-author a {
   bottom: 15px;
   display: inline-block;
   text-decoration: none;
+  color: #133C56;
 }
 
 div.post-author p {
@@ -154,16 +151,42 @@ div.post-body span {
 }
 
 section.sidebar {
-  width: 25%;
+  margin-right: 110px;
+  width: 250px;
   float: right;
 }
 
 div.social {
   text-align: center;
   margin: auto;
+  margin-top: 80px;
+}
+
+div.social img {
+  border-radius: 100%;
+  width: 80px;
+}
+
+div.social a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 0.8em;
+}
+
+a#profile {
+  font-size: 1.2em;
+  color: #133C56;
+  text-transform: uppercase;
+  display: block;
+}
+
+div.advertisement img {
+  margin-top: 50px;
+  width: 100%;
 }
 
 div.advertisement a {
+  color: lightgrey;
   display: block;
   text-align: right;
   text-decoration: underline;
@@ -175,45 +198,74 @@ div.side-post {
 
 div.side-post h4 {
   text-transform: uppercase;
+  color: #133C56;
+}
+
+div.side-post p {
+  line-height: 1.5em;
+}
+
+div.content h2 {
+  text-transform: uppercase;
+  clear: both;
+  text-align: center;
 }
 
 footer {
   width: 100%;
-  text-align: center;
-  margin: auto;
-  clear: both;
 }
 
-footer h2 {
-  text-transform: uppercase;
-}
-
-div.post-images img {
-  width: 200px;
+div.post-images {
+  width: 100%;
+  height: 350px;
 }
 
 div.pop-post-1 {
+  background-size: cover;
+  background-image: url('/images/dolphins.jpg');
   display: inline-block;
-  width: 250px;
+  height: 100%;
+  width: 25%;
+  opacity: 0.5;
+  margin-right: -4px;
 }
 
 div.pop-post-2 {
+  background-size: cover;
+  background-image: url('/images/dog_surfing.jpeg');
   display: inline-block;
-  width: 250px
+  height: 100%;
+  width: 25%;
+  opacity: 0.5;
+  margin-right: -4px;
 }
 
 div.pop-post-3 {
+  background-size: cover;
+  background-image: url('/images/kayaks.jpg');
   display: inline-block;
-  width: 250px;
+  height: 100%;
+  width: 25%;
+  opacity: 0.5;
+  margin-right: -4px;
 }
 
 div.pop-post-4 {
+  background-size: cover;
+  background-image: url('/images/surfboards.jpg');
   display: inline-block;
-  width: 250px;
+  height: 100%;
+  width: 25%;
+  opacity: 0.5;
+  margin-right: -4px;
 }
 
 div.copyright {
   float: left;
+}
+
+footer {
+  background-color: #3095d8;
 }
 
 div.footer-nav {
