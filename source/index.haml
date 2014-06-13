@@ -1,23 +1,26 @@
 ---
 title: Surf and Paddle
 ---
+%header
+  .header-image
+  .filter
+  #logo
+    %img{:src => '/images/logo.png', :alt => '#'}
+    %span Surf & Paddle Co. Blog
+
+  %nav
+    %ul
+      %li
+        %a{:href => '#'} About
+      %li
+        %a{:href => '#'} Search
+
+  #banner
+    %h1 Surf & Paddle Co.
+    %h6 An Ironyard Academy Project Est. Summer 2014
+
 
 .container
-  %header
-    #logo
-      %img{:src => '#', :alt => '#'}
-      %span Surf & Paddle Co. Blog
-
-    %nav
-      %ul
-        %li About
-        %li Search
-        %li Icon
-
-    #banner
-      %h1 Surf & Paddle Co.
-      %h6 An Ironyard Academy Project Est. Summer 2014
-
   .content
     %section.post
       %h2 A Fantastic Engaging Headline Goes Here
@@ -44,7 +47,7 @@ title: Surf and Paddle
         %a{:href => '#'} Instagram
 
       .advertisement
-        %img{:src => '#', :alt => '#'}
+        %img{:src => '/images/advertisement.jpg', :alt => '#'}
         %a About this Ad
 
       .side-post
@@ -55,16 +58,16 @@ title: Surf and Paddle
     %h2 Most Popular Posts
     .post-images
       .pop-post-1
-        %img.footer-image{:src => '#', :alt => '#'}
+        %img.footer-image{:src => '/images/dolphins.jpg', :alt => '#'}
           %p.footer-title Another Cool Post
       .pop-post-2
-        %img.footer-image{:src => '#', :alt => '#'}
+        %img.footer-image{:src => '/images/dog_surfing.jpeg', :alt => '#'}
           %p.footer-title Post Title
       .pop-post-3
-        %img.footer-image{:src => '#', :alt => '#'}
+        %img.footer-image{:src => '/images/kayaks.jpg', :alt => '#'}
           %p.footer-title Here's Another Longer Post Title
       .pop-post-4
-        %img.footer-image{:src => '#', :alt => '#'}
+        %img.footer-image{:src => '/images/surfboards.jpg', :alt => '#'}
           %p.footer-title Oh Cool A Post!
 
     .copyright
