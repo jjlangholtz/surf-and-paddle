@@ -103,7 +103,7 @@ section.post {
 section.post h2 {
   text-transform: uppercase;
   color: #133C56;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 div.post-author {
@@ -206,9 +206,13 @@ div.side-post p {
 }
 
 div.content h2 {
+  margin-bottom: 15px;
+  padding-top: 45px;
   text-transform: uppercase;
   clear: both;
   text-align: center;
+  color: #133C56;
+  font-size: 4.5em;
 }
 
 footer {
@@ -260,7 +264,28 @@ div.pop-post-4 {
   margin-right: -4px;
 }
 
+div.bottom {
+  height: 80px;
+  width: 100%;
+  background-color: #00476B;
+  color: white;
+  font-size: 0.85em;
+}
+
+div.footer-nav {
+  margin-right: 250px;
+  padding-top: 25px;
+}
+
+div.bottom a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.85em;
+}
+
 div.copyright {
+  padding-top: 25px;
+  margin-left: 225px;
   float: left;
 }
 
