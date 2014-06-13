@@ -99,7 +99,8 @@ div.content {
 }
 
 section.post {
-  width: 60%;
+  margin-left: 4%;
+  width: 65%;
   float: left;
 }
 
@@ -109,16 +110,51 @@ section.post h2 {
   font-size: 3em;
 }
 
-span#author {
+div.post-author {
+  margin-top: -35px;
+}
+
+div.post-author img {
   display: inline-block;
+  border-radius: 100%;
+  width: 40px;
+}
+
+div.post-author a {
+  position: relative;
+  bottom: 15px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 div.post-author p {
+  position: relative;
+  bottom: 15px;
   display: inline-block;
 }
 
+div.post-body {
+  margin-top: -20px;
+  line-height: 1.5em;
+}
+
+div.post-body p:nth-child(2) {
+  font-size: 4.5em;
+  color: lightgrey;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+div.post-body span {
+  position: relative;
+  font-size: 0.30em;
+  text-transform: uppercase;
+  color: darkblue;
+  bottom: 15px;
+}
+
 section.sidebar {
-  width: 30%;
+  width: 25%;
   float: right;
 }
 
